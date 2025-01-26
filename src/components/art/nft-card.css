@@ -1,0 +1,27 @@
+.nft-card {
+    width: 15rem; /* Adjust this to fit your design */
+    height: auto;
+    border: 2px solid var(--blue-main);
+    background-color: transparent;
+    border-radius: 5px;
+    max-width: 100%; /* Ensures the card width does not exceed the container */
+    
+}
+
+  video {
+    max-width: 100%; /* Makes sure the video does not overflow the card */
+    height: auto;    /* Adjusts height based on width to maintain aspect ratio */
+  }
+
+.nft-card section {
+flex-grow: 1;
+margin: 10px; /* Ensure consistent spacing */
+}
+
+
+@media (max-width: 767px) {
+.nft-card {
+    max-width: 100%; /* Ensure the card doesn't overflow */
+}
+
+}

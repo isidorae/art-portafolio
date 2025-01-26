@@ -1,0 +1,39 @@
+[
+    {
+      "id": 1,
+      "title": "NFT 1",
+      "src": "https://ipfsgateway.makersplace.com/ipfs/QmTc1pPLqcJrRvYY8xH2bHQRCLTRGXjvcCuTTnvpUBCpEX",
+      "description": "This is the description for NFT 1",
+      "editions": "1/1 edition",
+      "status": "sold",
+      "market": "https://makersplace.com/",
+      "alt": "NFT 1",
+      "year": "2021",
+      "collection": "Just for fun"
+    },
+    {
+      "id": 2,
+      "title": "NFT 1",
+      "src": "https://ipfsgateway.makersplace.com/ipfs/QmTc1pPLqcJrRvYY8xH2bHQRCLTRGXjvcCuTTnvpUBCpEX",
+      "description": "This is the description for NFT 1",
+      "editions": "1/1 edition",
+      "status": "available",
+      "market": "https://makersplace.com/",
+      "alt": "NFT 1",
+      "year": "2021",
+      "collection": "None"
+    },
+    {
+      "id": 3,
+      "title": "NFT 1",
+      "src": "https://ipfsgateway.makersplace.com/ipfs/QmTc1pPLqcJrRvYY8xH2bHQRCLTRGXjvcCuTTnvpUBCpEX",
+      "description": "This is the description for NFT 1",
+      "editions": "1/1 edition",
+      "status": "sold",
+      "market": "https://makersplace.com/",
+      "alt": "NFT 1",
+      "year": "2021",
+      "collection": "Just for fun"
+    }
+  ]
+  

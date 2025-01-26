@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "name": "Collection 1",
+      "creator": "Artist 1",
+      "description": "This is the first collection"
+    },
+    {
+      "id": 2,
+      "name": "Collection 2",
+      "creator": "Artist 2",
+      "description": "This is the second collection"
+    },
+    {
+      "id": 3,
+      "name": "Collection 3",
+      "creator": "Artist 3",
+      "description": "This is the third collection"
+    }
+  ]
+  
