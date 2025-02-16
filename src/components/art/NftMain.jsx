@@ -1,7 +1,7 @@
 import './nft-card.css'
 import nftdata from '../../nft-data.json';
 import collectionData from '../../nft-collections.json';
-import TraditionalArtCard from "./TraditionalArtCard";
+import NftArtCard from "./NftArtCard";
 import { Button } from "react-bootstrap"
 import { Link } from 'react-router-dom';
 
@@ -20,6 +20,7 @@ const collectionNames = {
     "anima mundi": "Anima Mundi",
     "Aequus": "Aequus",
     "just for fun": "Just for Fun",
+    "muse lux": "Muse Lux",
 };
 
     const handleStatusFilter = (status) => {
@@ -150,19 +151,19 @@ const collectionNames = {
                     </Button>
                 </div>
             </section>
-            <section className="d-flex flex-row flex-wrap justify-content-center align-items-center">
+            <section className="d-flex flex-row flex-wrap justify-content-center align-items-center mb-5 pb-5">
                 {
                     filteredNfts.map(item => {
                         return(
-                            <TraditionalArtCard 
+                            <NftArtCard 
                                 id={item.id}
                                 title={item.title} 
                                 collection={item.collection}
                                 editions={item.editions} 
-                                url={item.src}
+                                previewimg={item.preview}
                                 status={item.status} 
                                 market={item.buy} 
-                                alt={item.alt}
+                                alt={`nft preview ${item.title}`}
                                 format={item.format}
                                 network={item.network}
                             />

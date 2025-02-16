@@ -1,0 +1,22 @@
+.collection-container {
+    position: relative;
+  text-align: center;
+  padding-top: 25px;
+ }
+ .text-on-image {
+   position: absolute !important;
+   color: whitesmoke;
+   right: 10%;
+   left: 10%;
+   bottom: 35%;
+   text-decoration: underline solid whitesmoke 5px;
+   text-shadow: 4px 1px 12px rgba(16,22,100,0.45);
+ }
+
+ .collection-container:hover {
+    border: solid rgb(71, 113, 228) 3px;
+ }
+
+ .border-red {
+    border: solid rgb(196, 92, 92) 10px;
+ }

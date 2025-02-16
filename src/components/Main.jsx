@@ -8,13 +8,13 @@ export default function Main() {
             <p>artist</p>
             <section className="d-flex flex-row">
                 <div className="mx-1">
-                    <Button as={ Link } to='/nft' variant="outline-light">NFTs</Button>
+                    <Button className="text-white" as={ Link } to='/nft-collections' variant="outline-light">NFTs</Button>
                 </div>
                 <div className="mx-1">
-                    <Button as={ Link } to='/traditional' variant="outline-light">Traditional Art</Button>
+                    <Button className="text-white" as={ Link } to='/traditional' variant="outline-light">Traditional Art</Button>
                 </div>
                 <div className="mx-1">
-                    <Button as={ Link } to='/fineart-prints' variant="outline-light">Fine Art Prints</Button>
+                    <Button className="text-white" as={ Link } to='/fineart-prints' variant="outline-light">Fine Art Prints</Button>
                 </div>
             </section>
         </div>

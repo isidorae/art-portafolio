@@ -6,9 +6,9 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 
 import Home from './pages/Home'
 import Nft from './pages/Nft'
-import Footer from './components/Footer'
 import Prints from './pages/Prints'
 import Traditional from './pages/Traditional'
+import CollectionsNfts from './pages/CollectionsNfts';
 
 function App() {
 
@@ -16,12 +16,11 @@ function App() {
     <>
     <Routes>
       <Route path='/' element={< Home/>}></Route>
-      <Route path='/nft' element={< Nft/>}></Route>
+      <Route path='/nft-collections' element={< CollectionsNfts/>}></Route>
+      <Route path='/nfts' element={< Nft/>}></Route>
       <Route path='/traditional' element={< Traditional/>}></Route>
       <Route path='/fineart-prints' element={< Prints/>}></Route>
     </Routes>
-    <Footer/>
-
     </>
   )
 }

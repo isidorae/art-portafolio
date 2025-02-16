@@ -1,7 +1,7 @@
 import Badge from 'react-bootstrap/Badge';
 import Stack from 'react-bootstrap/Stack';
 
-export default function TraditionalArtCard({id, title, collection, editions, url, status, market, alt, format, network}) { 
+export default function NftArtCard({id, title, collection, editions, previewimg, status, market, alt, format, network}) { 
     return (
         <div key={id} className="nft-card m-1">
             <div className="d-flex justify-content-end m-1">
@@ -31,11 +31,11 @@ export default function TraditionalArtCard({id, title, collection, editions, url
                             style={{ height: '100%' }} 
                             type="video/mp4"
                             >
-                            <source src={url} />
+                            <source src={previewimg} />
                             {alt}
                           </video>
                     )
-                    : (<img src={url} alt={format === 'gif' ? 'Embedded GIF' : 'Embedded Image'}  
+                    : (<img src={previewimg} alt={format === 'gif' ? 'Embedded GIF' : 'Embedded Image'}  
                         width="220" 
                         height="auto" 
                         loading="lazy" 

@@ -13,7 +13,6 @@ body {
   width: 100%; /* Ensures the body takes up full width */
 }
 
-
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Oswald', sans-serif;
   text-align: center;
@@ -21,7 +20,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0
 }
 
-p {
+footer, p {
   font-family: 'sans-serif';
   margin: 0;
 }
@@ -32,6 +31,11 @@ p {
 
 .text-blue {
   color: var(--blue-main) !important;
+}
+
+.xxl-font {
+  font-size: 6rem;
+  margin: 0;
 }
 
 /* RESET BOOSTRAP */
