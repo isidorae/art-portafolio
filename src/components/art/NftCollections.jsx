@@ -19,7 +19,7 @@ export default function NftCollections() {
           <div className="d-flex flex-column mb-5">
             <section className="collection-container p-0 m-2">
                 <Link to="/nfts">
-                    <div>
+                    <div className="border-collections">
                         <img src={animamundi} className="img-fluid" />
                         
                     </div>
@@ -29,7 +29,7 @@ export default function NftCollections() {
                 </Link>
             </section>
             <section className="collection-container p-0 m-2">
-                <div>
+                <div className="border-collections">
                     <img src={justforfun} className="img-fluid" />
                 </div>
                 <div className="text-on-image">
@@ -37,7 +37,7 @@ export default function NftCollections() {
                 </div>
             </section>
             <section className="collection-container p-0 m-2">
-                <div className="border-red">
+                <div className="border-collections">
                     <img src={allart} className="img-fluid" />
                 </div>
                 <div className="text-on-image">
@@ -45,7 +45,7 @@ export default function NftCollections() {
                 </div>
             </section>
             <section className="collection-container p-0 m-2">
-                <div>
+                <div className="border-collections">
                     <img src={muselux} className="img-fluid" />
                 </div>
                 <div className="text-on-image">

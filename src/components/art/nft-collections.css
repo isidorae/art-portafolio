@@ -13,10 +13,11 @@
    text-shadow: 4px 1px 12px rgba(16,22,100,0.45);
  }
 
- .collection-container:hover {
-    border: solid rgb(71, 113, 228) 3px;
+
+ .border-collections {
+    border: solid rgb(251, 234, 234) 4px;
  }
 
- .border-red {
-    border: solid rgb(196, 92, 92) 10px;
+ .border-collections:hover {
+    border: solid rgb(71, 113, 228) 4px;
  }

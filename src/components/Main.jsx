@@ -8,7 +8,7 @@ export default function Main() {
             <p>artist</p>
             <section className="d-flex flex-row">
                 <div className="mx-1">
-                    <Button className="text-white" as={ Link } to='/nft-collections' variant="outline-light">NFTs</Button>
+                    <Button className="text-white" as={ Link } to='/nfts' variant="outline-light">NFTs</Button>
                 </div>
                 <div className="mx-1">
                     <Button className="text-white" as={ Link } to='/traditional' variant="outline-light">Traditional Art</Button>
