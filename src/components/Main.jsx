@@ -18,7 +18,7 @@ export default function Main() {
                 </div>
             </section>
             <div className="mt-2">
-                <img src="https://assets.objkt.media/file/assets-003/KT1HtDvksXmgmk6H6vp48r1agxp772XLQgN1/62/thumb288" alt="gif"  
+                <img src="https://res.cloudinary.com/djnxhqgym/image/upload/v1740931284/muselux59_y7fqf0.webp" alt="gif"  
                             width="220" 
                             height="auto" 
                             loading="lazy" 
