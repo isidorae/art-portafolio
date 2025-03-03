@@ -21,6 +21,7 @@ const collectionNames = {
     "Aequus": "Aequus",
     "just for fun": "Just for Fun",
     "muse lux": "Muse Lux",
+    "no fantasy required": "No Fantasy Required",
 };
 
     const handleStatusFilter = (status) => {
@@ -73,6 +74,7 @@ const collectionNames = {
                         </Button>
                     </div>
                 </div>
+                <hr />
                 {/* Collection Filters */}
                 <div className="d-flex flex-row flex-wrap justify-content-center align-items-center mb-2">
                 <h4>Filter by collection</h4>
@@ -87,6 +89,7 @@ const collectionNames = {
                         </div>
                     ))}
                 </div>
+                <hr />
                 <div>
                     {/* Editions Filters */}
                     <div className="d-flex flex-row flex-wrap justify-content-center align-items-center mb-2">
@@ -109,6 +112,7 @@ const collectionNames = {
                         </div>
                     </div>
                 </div>
+                <hr />
                 {/* Blockchain Filters */}
                 <div className="d-flex flex-row flex-wrap justify-content-center align-items-center mb-2">
                     <h4>Filter by Blockchain</h4>
@@ -137,7 +141,11 @@ const collectionNames = {
                         </Button>
                     </div>
                 </div>
-                <div className="d-flex flex-row mx-1 justify-content-end">
+                <hr />
+                <div className="d-flex flex-row mx-1 align-items-center justify-content-between">
+                    <section>
+                        <p className="m-0">{filteredNfts.length} NFTs found</p>
+                    </section>
                     <Button 
                         variant="outline-secondary" 
                         onClick={() => {
