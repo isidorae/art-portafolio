@@ -38,6 +38,12 @@ footer, p {
   margin: 0;
 }
 
+@media screen and (max-width: 850px){
+  .xxl-font {
+    font-size: 2rem;
+  }
+}
+
 /* RESET BOOSTRAP */
 
 @media (prefers-color-scheme: light) {

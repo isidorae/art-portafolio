@@ -24,6 +24,7 @@ export default function NftArtCard({id, title, collection, editions, previewimg,
                     (
                         <video 
                             controls 
+                            playsInline muted preload="auto" 
                             className="align-self-center" 
                             width="220" 
                             height="auto" 
