@@ -16,7 +16,6 @@ export default function NftCollections() {
                         <Button className="text-white" as={ Link } to='/' variant="outline-light">Return</Button>
                     </div>
             </section>
-          <p>Choose a collection</p>
           <div className="d-flex flex-column mb-5">
             <section className="collection-container p-0 m-2">
                     <Link to="/nfts">
