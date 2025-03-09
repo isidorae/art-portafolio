@@ -48,7 +48,7 @@ const collectionNames = {
         <div className="overflow-hidden">
             <section className="d-flex flex-row align-selft-start justify-content-start">
                     <div className="m-2">
-                        <Button className="text-white" as={ Link } to='/' variant="outline-light">Return</Button>
+                        <Button className="text-white" as={ Link } to='/nft-collections' variant="outline-light">Return</Button>
                     </div>
             </section>
             <div>

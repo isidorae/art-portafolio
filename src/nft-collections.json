@@ -1,21 +1,38 @@
 [
     {
       "id": 1,
-      "name": "Collection 1",
-      "creator": "Artist 1",
-      "description": "This is the first collection"
+      "name": "muse lux",
+      "description": "From the mysterious depths, they rise. Shining from beneath and from above, illuminating all. 1/1 Editions, Handmade. The door has been opened. A Project by @isidoraxis GEN2.0 ARRIVING ON 2023",
+      "marketplace": "OBJKT",
+      "link": "https://objkt.com/collections/KT1HtDvksXmgmk6H6vp48r1agxp772XLQgN1"
     },
     {
       "id": 2,
-      "name": "Collection 2",
-      "creator": "Artist 2",
-      "description": "This is the second collection"
+      "name": "no fantasy required",
+      "description": null,
+      "marketplace": "Makersplace",
+      "link": null
     },
     {
       "id": 3,
-      "name": "Collection 3",
-      "creator": "Artist 3",
-      "description": "This is the third collection"
+      "name": "anima mundi",
+      "description": null,
+      "marketplace": "Makersplace",
+      "link": null
+    },
+    {
+      "id": 4,
+      "name": "just for fun",
+      "description": null,
+      "marketplace": "Makersplace",
+      "link": null
+    },
+    {
+      "id": 5,
+      "name": "none",
+      "description": null,
+      "marketplace": "Makersplace",
+      "link": null
     }
   ]
   

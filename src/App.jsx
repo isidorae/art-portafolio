@@ -9,6 +9,7 @@ import Nft from './pages/Nft'
 import Prints from './pages/Prints'
 import Traditional from './pages/Traditional'
 import CollectionsNfts from './pages/CollectionsNfts';
+import SpecificCollectionPage from './pages/SpecificCollectionPage';
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
       <Route path='/nfts' element={< Nft/>}></Route>
       <Route path='/traditional' element={< Traditional/>}></Route>
       <Route path='/fineart-prints' element={< Prints/>}></Route>
+      <Route path='/nfts/:nftCollection' element={< SpecificCollectionPage/>}></Route>
     </Routes>
     </>
   )
