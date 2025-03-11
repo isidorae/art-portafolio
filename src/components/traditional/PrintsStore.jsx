@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import { Button } from "react-bootstrap"
+import hannibal from "/public/hannibal.jpg"
 
 export default function PrintsStore(){
     return(
@@ -12,6 +13,9 @@ export default function PrintsStore(){
                     <Link to="https://www.inprnt.com/gallery/axis/" target="_blank">Muse Lux Unique Prints</Link>
                 </section>
                 <p>Worldwide shipping</p>
+            </div>
+            <div>
+                <img src={hannibal} alt="say yes painting" className="img-fluid" width="300" height="auto"  />
             </div>
             <section className="d-flex flex-row align-selft-center justify-content-center mt-5">
                         <div className="m-2">

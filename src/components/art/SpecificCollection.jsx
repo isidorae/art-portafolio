@@ -33,7 +33,7 @@ export default function SpecificCollection({ collection }) {
     });
 
     return (
-        <div className="overflow-hidden">
+        <div className="vh-100">
             <section className="d-flex flex-row align-selft-start justify-content-start">
                 <div className="m-2">
                     <Button className="text-white" as={Link} to='/nft-collections' variant="outline-light">Return To Collections</Button>

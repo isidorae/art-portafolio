@@ -6,6 +6,7 @@ import animamundi from "/public/animamundi.avif"
 import allart from "/public/allnfts.jpg"
 import muselux from "/public/muselux.avif"
 import nofantasy from "/public/no-fantasy-required.jpg"
+import Footer from "../Footer"
 
 export default function NftCollections() { 
     return (
@@ -17,6 +18,7 @@ export default function NftCollections() {
                     </div>
             </section>
           <div className="d-flex flex-column mb-5">
+            <h2>Pick a Collection</h2>
             <section className="collection-container p-0 m-2">
                     <Link to="/nfts">
                         <div className="border-collections">
@@ -68,6 +70,9 @@ export default function NftCollections() {
                         </div>
                     </Link>
                 </section>
+            </div>
+            <div className="mb-5 pb-5">
+            <Footer />
             </div>
         </div>
         </>
