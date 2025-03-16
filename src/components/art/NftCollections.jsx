@@ -3,7 +3,7 @@ import './nft-collections.css'
 import { Button } from "react-bootstrap"
 import justforfun from "/public/justforfun.avif"
 import animamundi from "/public/animamundi.avif"
-import allart from "/public/allnfts.jpg"
+import allart from "/public/all_nfts_resized.jpg"
 import muselux from "/public/muselux.avif"
 import nofantasy from "/public/no-fantasy-required.jpg"
 import Footer from "../Footer"
