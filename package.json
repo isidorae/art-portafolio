@@ -2,7 +2,6 @@
   "name": "nft-portafolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://isidora-axis.art",
   "type": "module",
   "scripts": {
     "dev": "vite",
