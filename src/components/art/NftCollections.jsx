@@ -75,6 +75,15 @@ export default function NftCollections() {
                         />
                     </a>
                 </div>
+                <div>
+                    <a href="https://foundation.app/@axis" target="_blank" rel="noopener noreferrer">
+                        <img src="https://res.cloudinary.com/djnxhqgym/image/upload/v1744579815/foundation_logo_keydvo.png" 
+                        alt="foundation logo" 
+                        className="img-fluid m-2" 
+                        style={{ width: 'auto', height: '30px' }}
+                        />
+                    </a>
+                </div>
             </section>
             <section className="collection-container p-0 m-2">
                     <Link to="/nfts">
