@@ -1608,5 +1608,20 @@
     "editions": "multiple",
     "network": "tez",
     "": ""
+  },
+  {
+    "id": 126,
+    "title": "Playing with Infinity",
+    "original": "https://f8n-production-collection-assets.imgix.net/1/0x8B4D72FB35f3d68e7DbD50B43feD563e1Ce4d255/1/nft.jpg?auto=format%2Ccompress&q=70&cs=srgb&h=1200&w=1200&fnd_key=v1",
+    "preview": "https://res.cloudinary.com/djnxhqgym/image/upload/v1744579443/playing_w_infinity_2_cloudinary_bfbtrw.png",
+    "buy": "https://foundation.app/mint/eth/0x8B4D72FB35f3d68e7DbD50B43feD563e1Ce4d255/1",
+    "marketplace": "foundation",
+    "format": "img",
+    "collection": "none",
+    "status": "available",
+    "editions": "unique",
+    "network": "eth",
+    "": ""
   }
+
 ]
